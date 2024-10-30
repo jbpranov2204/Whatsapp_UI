@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui/Whatsapp_UI/Components/LIstTile.dart';
-import 'package:whatsapp_ui/Whatsapp_UI/Models.dart/Wha_models.dart';
+import 'package:whatsapp_ui/Whatsapp_UI/Models/Wha_models.dart';
 
 
 class StoreWidget_ extends StatelessWidget {
