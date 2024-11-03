@@ -7,6 +7,7 @@ class WrapWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff),
       appBar: AppBar(
         leading: Icon(Icons.arrow_back),
       ),
@@ -15,11 +16,7 @@ class WrapWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(height: 20),
             Divider(),
-            SizedBox(
-              height: 30,
-            ),
             Text(
               'What kind of events',
               style: TextStyle(
@@ -49,8 +46,12 @@ class WrapWidget extends StatelessWidget {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 248, 247, 247),
+                          
                         ),
                       ),
+                      avatar: Icon(
+                                  Icons.work
+                                ),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20)),
                     ),
@@ -59,6 +60,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 252, 251, 251))),
+                                avatar: Icon(
+                                  Icons.brush
+                                ),
                        
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -67,6 +71,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 250, 249, 249))),
+                                avatar: Icon(
+                                  Icons.history_edu
+                                ),
                        
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -75,6 +82,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 248, 247, 247))),
+                                avatar: Icon(
+                                  Icons.open_with
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -83,6 +93,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 252, 250, 250))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -91,6 +104,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 247, 244, 244))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
                     Chip(
@@ -98,10 +114,13 @@ class WrapWidget extends StatelessWidget {
                         'Business',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 247, 246, 246),
+                          color: const Color.fromARGB(255, 248, 247, 247),
+                          
                         ),
                       ),
-                      
+                      avatar: Icon(
+                                  Icons.work
+                                ),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20)),
                     ),
@@ -109,15 +128,21 @@ class WrapWidget extends StatelessWidget {
                         label: Text('Arts',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: const Color.fromARGB(255, 246, 244, 244))),
-                        
+                                color: const Color.fromARGB(255, 252, 251, 251))),
+                                avatar: Icon(
+                                  Icons.brush
+                                ),
+                       
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
-                    Chip(
+                     Chip(
                         label: Text('History',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: const Color.fromARGB(255, 252, 249, 249))),
+                                color: const Color.fromARGB(255, 250, 249, 249))),
+                                avatar: Icon(
+                                  Icons.history_edu
+                                ),
                        
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -126,6 +151,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 250, 249, 249))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                        
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -134,6 +162,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 248, 247, 247))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                        
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -142,6 +173,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 241, 241, 241))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -151,9 +185,12 @@ class WrapWidget extends StatelessWidget {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 248, 247, 247),
+                          
                         ),
                       ),
-                      
+                      avatar: Icon(
+                                  Icons.work
+                                ),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20)),
                     ),
@@ -162,15 +199,21 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 252, 251, 251))),
-                        
+                                avatar: Icon(
+                                  Icons.brush
+                                ),
+                       
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
                     Chip(
                         label: Text('History',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: const Color.fromARGB(255, 251, 249, 249))),
-                        
+                                color: const Color.fromARGB(255, 250, 249, 249))),
+                                avatar: Icon(
+                                  Icons.history_edu
+                                ),
+                       
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
                     Chip(
@@ -178,6 +221,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 252, 252, 252))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -186,6 +232,9 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 250, 249, 249))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
@@ -194,13 +243,16 @@ class WrapWidget extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: const Color.fromARGB(255, 247, 245, 245))),
+                                avatar: Icon(
+                                  Icons.work
+                                ),
                         
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
                   ]),
             ),
             SizedBox(
-              height: 120,
+              height: 200,
             ),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
