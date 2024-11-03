@@ -7,20 +7,14 @@ class WrapWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        leading: Icon(Icons.arrow_back),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Row(
-              children: [
-                Icon(
-                  Icons.arrow_back,
-                  color: Colors.white,
-                ),
-              ],
-            ),
             SizedBox(height: 20),
             Divider(),
             SizedBox(
