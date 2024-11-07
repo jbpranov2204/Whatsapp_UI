@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_ui/Whatsapp_UI/Pages/Mobile_Page.dart';
 import 'package:whatsapp_ui/Wrap_ui.dart';
 
 
@@ -19,11 +20,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       
       theme: ThemeData(
-         brightness: Brightness.dark
+         brightness: Brightness.light
          
          
       ),
-        home:WrapWidget(),
+        home:MobilePage(),
         debugShowCheckedModeBanner: false,
 
     );
